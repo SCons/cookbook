@@ -52,4 +52,4 @@ html_theme = 'classic'
 html_static_path = ['_static']
 
 
-master_doc = 'SConsCookbook.rst'
+master_doc = 'SConsCookbook'
