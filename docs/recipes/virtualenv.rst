@@ -12,7 +12,7 @@ for setting one up on a Linux host:
 
    $ cd Work
    $ python -m venv myvenv
-   $ source bin/activate
+   $ source myvenv/bin/activate
    (myvenv) $ pip list --outdated
    Package    Version Latest Type
    ---------- ------- ------ -----
@@ -57,7 +57,7 @@ any additional requirements your project may have
    (myvenv) $ pip install -r requirements.txt
 
 
-Here is the same session from a Windows host:
+Here is the same session from a Windows host (cmd.exe):
 
 .. code:: cmd
 
