@@ -8,7 +8,7 @@ there, and change versions as needed, without affecting anything
 else on your system that uses Python.  Here is an example session
 for setting one up on a Linux host:
 
-.. code:: shell
+.. code:: console
 
    $ cd Work
    $ python -m venv myvenv
@@ -50,7 +50,7 @@ step to activate it, go to your project, and install
 any additional requirements your project may have
 (skip this step if there are none).
 
-.. code:: shell
+.. code:: console
 
    $ cd Work/myproject
    $ source ~/Work/myvenv/bin/activate
@@ -59,7 +59,7 @@ any additional requirements your project may have
 
 Here is the same session from a Windows host (cmd.exe):
 
-.. code:: cmd
+.. code:: doscon
 
    C:\Users\user>cd Work
 
