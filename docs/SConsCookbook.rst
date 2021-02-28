@@ -44,3 +44,5 @@ doing various things.
 
 .. include:: recipes/msvc-external-debug.rst
 
+.. include:: recipes/virtualenv.rst
+
