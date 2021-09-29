@@ -19,5 +19,5 @@ construction variable, such as:
 .. code:: python
 
    env = Environment()
-   env['BUILDERS]['PDFBuilder'] = bld
+   env['BUILDERS']['PDFBuilder'] = bld
 
