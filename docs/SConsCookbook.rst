@@ -46,3 +46,6 @@ doing various things.
 
 .. include:: recipes/virtualenv.rst
 
+.. include:: recipes/cross-compile.rst
+
+
