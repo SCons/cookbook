@@ -1,4 +1,4 @@
-Setting a Compilation Flag in an Overrids
+Setting a Compilation Flag in an Override
 -----------------------------------------
 
 .. code:: python
