@@ -12,7 +12,7 @@ doing various things.
 
 .. include:: recipes/set-cflag-env.rst
 
-.. include:: recipes/set-cflag-override.rst
+.. include:: recipes/set-cflag-in-builder-call.rst
 
 .. include:: recipes/set-single-cpath.rst
 
