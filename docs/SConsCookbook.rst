@@ -1,8 +1,23 @@
 SCons Cookbook
 ==============
 
-To help you get started using ``SCons``, here are some recipes for
-doing various things.
+If you want some help building a project with the the ``SCons``
+build system, this Cookbook presents some recipes for getting
+various tasks done.  The audience is programmers who already know a
+bit about the build system - for learning ``SCons``, the `User Guide
+<https://scons.org/doc/production/HTML/scons-user/index.html>`_ is a
+good starting point.
+
+The snippets are are generally presented with little or no explanation,
+rather they're expected to be "oh, that's how you could do that".
+While they are usually trimmed down to the simplest possible form,
+it is hopeful they will show the path to more complex scenarios.
+
+If you would like to contribute to the Cookbook, it lives in
+its own project on GitHub, where you can submit
+`Issues and Bug Reports <https://github.com/SCons/cookbook/issues>`_
+and `Pull Requests <https://github.com/SCons/cookbook/pulls>`_.
+All suggestions will be carefully considered.
 
 .. contents:: Contents
 
