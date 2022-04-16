@@ -29,6 +29,7 @@ author = 'The SCons Project'
 # ones.
 extensions = [
     "sphinx_rtd_theme",
+    "sphinx_tabs.tabs",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
