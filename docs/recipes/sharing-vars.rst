@@ -26,9 +26,10 @@ SConscript files.
    env.Program(target='foo', source='foo.c')
 
 Alternatively, you can use the ``exports``
-keyword argument to pass a variable to an SConscript.
+keyword argument to pass a variable to an SConscript
 In this case the global definition that would be
 affected by calling ``Export`` is not modified.
+The SConscript file still needs to do the `Import`.
 
 ``SConstruct``
 
