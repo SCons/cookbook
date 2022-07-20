@@ -29,6 +29,8 @@ All suggestions will be carefully considered.
 
 .. include:: recipes/set-cflag-in-builder-call.rst
 
+.. include:: recipes/cvar-replace.rst
+
 .. include:: recipes/set-single-cpath.rst
 
 .. include:: recipes/set-multi-cpath.rst
@@ -44,6 +46,8 @@ All suggestions will be carefully considered.
 .. include:: recipes/adding-builder-env.rst
 
 .. include:: recipes/own-scanner.rst
+
+.. include:: recipes/scanner-replace.rst
 
 .. include:: recipes/heir-build.rst
 

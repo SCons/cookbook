@@ -2,30 +2,29 @@ Building Multiple Variants From the Same Source
 -----------------------------------------------
 
 Use the ``variant_dir`` keyword argument to the
-``SConscript`` function to establish one or more
+`SConscript <https://scons.org/doc/production/HTML/scons-man.html#f-SConscript>`_
+function to establish one or more
 separate variant build directory trees for a given source directory:
 
-``SConstruct``:
+``SConstruct``
 
-.. code:: python
+.. code-block:: python
 
    cppdefines = ['FOO']
-   Export("cppdefines")
-   SConscript('src/SConscript', variant_dir='foo')
+   SConscript('src/SConscript', variant_dir='foo', exports='cppdefines')
 
    cppdefines = ['BAR']
-   Export("cppdefines")
-   SConscript('src/SConscript', variant_dir='bar')
+   SConscript('src/SConscript', variant_dir='bar', exports='cppdefines')
 
-``src/SConscript``:
+``src/SConscript``
 
-.. code:: python
+.. code-block:: python
 
-   Import("cppdefines")
+   Import('cppdefines')
    env = Environment(CPPDEFINES=cppdefines)
    env.Program(target='src', source='src.c')
 
-Note the use of the ``Export`` method to set the
-``cppdefines`` variable to a different value each time we call the
+Note the use of the ``exports`` keyword argument to pass a
+different value for the ``cppdefines`` variable value each time we call the
 ``SConscript`` function.
 
