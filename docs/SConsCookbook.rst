@@ -67,4 +67,6 @@ All suggestions will be carefully considered.
 
 .. include:: recipes/cross-compile.rst
 
+.. include:: recipes/cpp-system-path.rst
+
 
