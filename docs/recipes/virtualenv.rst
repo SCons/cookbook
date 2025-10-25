@@ -144,3 +144,17 @@ any additional requirements your project may have
       user@host scons % cd Work/myproj
       user@host myproj % source ~/Work/myvenv/bin/activate
       (myvenv) user@host myproj % pip install -r requirements.txt
+
+
+.. note::
+   The example on Windows shows using the Python launcher, ``py``,
+   which is not the only way to install Python on Windows.
+   Also, as of Python 3.14, the launcher is deprecated in favor
+   of the new Python install manager, which provides a new
+   command also named ``py``, not identical to the old one
+   (launch and management activities are split into two
+   commands, ``py`` and ``pymanager``).
+   Handling all of the options is beyond the scope of this
+   simple example, please see the
+   `Python documentation <https://docs.python.org/3/using/windows.html>`_
+
