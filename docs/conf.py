@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'SCons Cookbook'
-copyright = '2021-2022, The SCons Project'
+copyright = '2021-2025, The SCons Project'
 author = 'The SCons Project'
 
 
